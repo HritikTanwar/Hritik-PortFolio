@@ -1,0 +1,359 @@
+
+
+@media only screen and (max-width: 1024px){
+    header{
+        padding: 25px 0px 13px 0px;
+    }
+    .heading{
+        margin-left: -36%;
+    }
+    .skill{
+        margin-top: 16%;
+        margin-left: -36%;
+        height: 6vh;
+    }
+    .Resume{
+        margin-left: -35%;
+    }
+    .About{
+        height: 160vh;
+    }
+
+
+    .info{
+        position: relative;
+        flex-direction: column;
+        top: -25px;
+        width: 100%;
+        height: 136vh;
+    }
+    .head2{
+        font-size: 4rem;
+        margin-top: 0%;
+        margin-left: 103px;
+    }
+    .aboutme{
+        width: 80%;
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+        padding-top: 67px;
+        text-align: center;
+    }
+    .aboutaim{
+        margin-top: 1%;
+        width: 80%;
+        line-height: 1.9rem;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .ProfilePhoto{
+        clip-path: circle(37% at 44% 52%);
+        width: 505px;
+        height: 661px;
+}
+.container-aboutme{
+    margin-right: 7%;
+    width: 100%;
+    height: 100%;
+    text-align: -webkit-center;
+}
+.head3{
+    padding: 125px 0px 60px 0px;
+}
+th{
+    width: 260px;
+}
+.html-logo{
+    display: block;
+    float: right;
+    margin-left: -27%;
+    margin-right: 40px;
+    margin-top: -1.5%;
+    border-radius: 8px;
+}
+.boot-logo{
+    display: block;
+    float: right;
+    margin-left: -27%;
+    margin-right: 60px;
+    margin-top: -1%;
+    border-radius: 8px;
+}
+.css-logo{
+    display: block;
+    float: right;
+    margin-left: -27%;
+    margin-right: 17%;
+    margin-top: -2%;
+    border-radius: 8px;
+    height: 35px;
+}
+.java-logo{
+    display: block;
+    float: right;
+    margin-left: -27%;
+    margin-right: 20%;
+    margin-top: -2%;
+    border-radius: 8px;
+    height: 34px;
+}
+.vs-logo{
+    display: block;
+    float: right;
+    margin-left: -27%;
+    margin-right: 13%;
+    margin-top: -1.5%;
+    border-radius: 8px;
+    height: 32px;
+}
+.git-logo{
+    display: block;
+    float: right;
+    margin-left: -23%;
+    margin-right: 19%;
+    margin-top: -2.5%;
+    border-radius: 8px;
+}
+.Education{
+    height: 140vh;
+}
+.head4{
+    padding: 65px 0px 60px 0px;
+}
+.EducationQualifications{
+    flex-direction: column;
+    height: 105vh;
+}
+.head5{
+    padding: 21px 0px 5px 0px;
+}
+.Metricinstitute{
+    margin-top: 10%;
+}
+.head5a{
+    padding: 21px 0px 5px 0px;
+}
+.SeniorInstitute{
+    margin-top: 10%;
+}
+.head5b{
+    padding: 21px 0px 5px 0px;
+}
+.CollegeInstitute{
+    margin-top: 10%;
+}
+}
+
+
+@media only screen and (max-width: 750px){
+    .heading{
+        text-align: center;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .skill{
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 12%;
+        height: max-content;
+    }
+    .Resume{
+        position: relative;
+        margin: 3px 6px 15px 218px;
+        text-align: center;
+    }
+    .About{
+        height: 120vh;
+    }
+
+
+    .info{
+        margin-top: 0px;
+        margin-bottom: 25px;
+        width: 701px;
+        height: max-content;
+    }
+    .container-aboutme{
+        text-align: center;
+        margin-right: 0px;
+        display: contents;
+    }
+    .head2{
+        font-size: 2.7rem;
+        margin-top: 3%;
+        width: 500px;
+        text-align: center;
+        margin-left: 0%;
+    }
+    .aboutme{
+        width: 522px;
+        font-size: 24px;
+        line-height: 2.3rem;
+        padding-top: 51px;
+        margin-left: -8px;
+    }
+    .aboutaim{
+        margin-top: 0;
+        margin-left: -15px;
+        width: 500px;
+        line-height: 1.9rem;
+        font-size: 1.2rem;
+    }
+    .ProfilePhoto{
+        display: block;
+        margin: 0px 1px 0px -3px;
+        clip-path: circle(37% at 44% 50%);
+        width: 250px;
+        height: 341px;
+    }
+    .head3{
+        padding: 85px 0px 60px 0px;
+    }
+    th{
+        width: 50%;
+    }
+    .html-logo{
+        margin-left: 0%;
+        margin-right: 17px;
+    }
+    .boot-logo{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .css-logo{
+        margin-left: 0;
+        margin-right: 7px;
+    }
+    .java-logo{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .vs-logo{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .git-logo{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .FormBox{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 100%;
+    }
+    form{
+        margin-top: 16%;
+        overflow: hidden;
+        width: 58%;
+    }
+    .form-control{
+        width: 90%;
+    }
+    .Cont{
+        padding: 30px;
+    }
+    .msg{
+        margin-top: 4%;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    .main{
+        margin-bottom: 0px;
+        margin-top: 0px;
+        height: 700px;
+        align-items: center;
+        justify-content: center;
+    }
+    .heading{
+        font-weight: bolder;
+        margin-top: -213px;
+    }
+    .skill{
+        font-weight: bolder;
+        margin-top: 82px;
+        margin-bottom: 2px;
+    }
+    .Resume{
+        margin-top: 42%;
+        margin-left: 10%;
+    }
+
+
+    .About{
+        height: 120vh;
+    }
+    
+    .info{
+        height: 908px;
+    }
+    
+    .head2{
+        margin-top: 0%;
+        width: 380px;
+    }
+    .aboutme{
+        width: 400px;
+        font-size: 22px;
+        padding-top: 45px;
+    }
+    .aboutaim{
+        width: 390px;
+        font-size: 1.18rem;
+    }
+    .head3{
+        padding: 55px 0px 60px 0px;
+    }
+    table.center{
+        width: 85%;
+    }
+    .html-logo{
+        margin-right: 28px;
+        margin-top: 4%;
+    }
+    .boot-logo{
+        margin-right: 28px;
+        margin-top: 4%;
+        
+    }
+    .css-logo{
+        margin-right: 37px;
+        margin-top: 4%;
+        
+    }
+    .java-logo{
+        margin-right: 28px;
+        margin-top: 4%;
+        
+    }
+    .vs-logo{
+        margin-right: 28px;
+        margin-top: 4%;
+        
+    }
+    .git-logo{
+        margin-right: 28px;
+        margin-top: 4%;
+        
+    }
+    .head4{
+        padding: 40px 0px 60px 0px;
+    }
+    .Metric{
+        width: 281px;
+    }
+    .Senior{
+        width: 281px;
+    }
+    .College{
+        width: 281px;
+    }
+    .Send{
+        width: 30%;
+    }
+    .foot a{
+        padding: 7px 6px 1px 1px;
+    }
+}
