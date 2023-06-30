@@ -390,4 +390,7 @@ th{
     .foot{
         width: 330px;
     }
+    .git {
+        margin-right: -19px;
+        margin-left: 3px;
 }
