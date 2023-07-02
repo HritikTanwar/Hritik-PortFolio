@@ -259,6 +259,25 @@ th{
     .msg{
         margin-top: 4%;
     }
+
+    .Projects{
+        height: 70vh;
+    }
+    .head6{
+        padding: 60px 0px 60px 0px;
+    }
+    .personal-projects{
+        height: 40vh;
+        flex-direction: column;
+    }
+    .first-project{
+        height: 15vh;
+    }
+    .second-project{
+        height: 15vh;
+    }
+
+
 }
 
 @media only screen and (max-width: 650px){
@@ -310,14 +329,14 @@ th{
         font-size: xx-large;
     }
     .aboutme{
-        margin: 60px 0px 0px 0px;
+        margin: 25px 0px 0px 0px;
         width: 349px;
         font-size: 15px;
         padding-top: 45px;
         line-height: 25px;
     }
     .aboutaim{
-        margin: auto;
+        margin: 0px;
         width: 350px;
         font-size: 0.8rem;
         line-height: 15px;
@@ -361,10 +380,10 @@ th{
         
     }
     .Education{
-        height: 180vh;
+        height: 115vh;
     }
     .EducationQualifications{
-        height: 160vh;
+        height: 100vh;
     }
     .head4{
         padding: 20px 0px 40px 0px;
@@ -393,5 +412,25 @@ th{
     .git {
         margin-right: -19px;
         margin-left: 3px;
-}
+    }
+    .Projects{
+        height: 75vh;
+    }
+    .head6{
+        padding: 50px 0px 50px 0px;
+    }
+    .personal-projects{
+        flex-direction: column;
+        height: 50vh;
+    }
+    .first-project{
+        width: 270px;
+        height: max-content;
+    }
+    .second-project{
+        width: 270px;
+        height: max-content;
+    }
+
+
 }
