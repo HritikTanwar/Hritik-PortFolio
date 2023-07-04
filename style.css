@@ -465,4 +465,14 @@ footer{
     margin-left: 15px;
 }
 
+.reveal{
+    position: relative;
+    opacity: 0;
+    transition: all 2s;
+    transform: translateY(150px);
+}
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
 
