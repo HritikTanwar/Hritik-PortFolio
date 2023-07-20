@@ -129,21 +129,10 @@ th{
 .head5{
     padding: 21px 0px 5px 0px;
 }
-.Metricinstitute{
+.My-Institute{
     margin-top: 10%;
 }
-.head5a{
-    padding: 21px 0px 5px 0px;
-}
-.SeniorInstitute{
-    margin-top: 10%;
-}
-.head5b{
-    padding: 21px 0px 5px 0px;
-}
-.CollegeInstitute{
-    margin-top: 10%;
-}
+
 }
 
 
@@ -270,14 +259,10 @@ th{
         height: 40vh;
         flex-direction: column;
     }
-    .first-project{
+    .My-project{
         height: 15vh;
     }
-    .second-project{
-        height: 15vh;
-    }
-
-
+    
 }
 
 @media only screen and (max-width: 650px){
@@ -388,15 +373,7 @@ th{
     .head4{
         padding: 20px 0px 40px 0px;
     }
-    .Metric{
-        width: 270px;
-        height: max-content;
-    }
-    .Senior{
-        width: 270px;
-        height: max-content;
-    }
-    .College{
+    .My-Education{
         width: 270px;
         height: max-content;
     }
@@ -408,6 +385,7 @@ th{
     }
     .foot{
         width: 330px;
+        margin: auto;
     }
     .git {
         margin-right: -19px;
@@ -423,14 +401,10 @@ th{
         flex-direction: column;
         height: 50vh;
     }
-    .first-project{
+    .My-project{
         width: 270px;
         height: max-content;
+        margin: 15px;
     }
-    .second-project{
-        width: 270px;
-        height: max-content;
-    }
-
 
 }

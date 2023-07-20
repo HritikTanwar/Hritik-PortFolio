@@ -268,60 +268,20 @@ th:hover{
     
 }
 
-.Metric{
+.My-Education{
     width: 360px;
     border: 1px solid black;
     border-radius: 3px;
     height: 30vh;
     border-radius: 20px;
 }
-.head5{
+.Education-Heading{
     
     padding: 5px 0px 5px 0px;
     text-align: center;
     font-size: 2.2rem;
 }
-.Metricinstitute{
-    text-align: center;
-    margin-top: 8%;
-    padding: 10px 0px 2px 0px;
-    line-height: 2.5rem;
-    font-size: 1.15rem;
-}
-
-.Senior{
-    width: 360px;
-    border: 1px solid black;
-    border-radius: 3px;
-    height: 30vh;
-    border-radius: 20px;
-}
-.head5a{
-    padding: 5px 0px 5px 0px;
-    text-align: center;
-    font-size: 2.2rem;
-}
-.SeniorInstitute{
-    text-align: center;
-    margin-top: 8%;
-    padding: 10px 0px 2px 0px;
-    line-height: 2.5rem;
-    font-size: 1.15rem;
-}
-
-.College{
-    width: 360px;
-    border: 1px solid black;
-    border-radius: 3px;
-    height: 30vh;
-    border-radius: 20px;
-}
-.head5b{
-    padding: 5px 0px 5px 0px;
-    text-align: center;
-    font-size: 2.2rem;
-}
-.CollegeInstitute{
+.My-Institute{
     text-align: center;
     margin-top: 8%;
     padding: 10px 0px 2px 0px;
@@ -349,7 +309,7 @@ th:hover{
     height: 40vh;
 }
 
-.first-project{
+.My-project{
     width: 360px;
     border: 1px solid black;
     border-radius: 3px;
@@ -357,13 +317,13 @@ th:hover{
     border-radius: 20px;
 }
 
-.head6a{
+.Projects-heading{
     color: black;
     padding: 5px 0px 5px 0px;
     text-align: center;
     font-size: 2.2rem;
 }
-.Fproject-info{
+.project-info{
     color: black;
     text-align: center;
     margin-top: 8%;
@@ -371,29 +331,6 @@ th:hover{
     line-height: 2.5rem;
     font-size: 1.15rem;
 }
-.second-project{
-    width: 360px;
-    border: 1px solid black;
-    border-radius: 3px;
-    height: 30vh;
-    border-radius: 20px;
-}
-
-.head6b{
-    color: black;
-    padding: 5px 0px 5px 0px;
-    text-align: center;
-    font-size: 2.2rem;
-}
-.Sproject-info{
-    color: black;
-    text-align: center;
-    margin-top: 8%;
-    padding: 10px 0px 2px 0px;
-    line-height: 2.5rem;
-    font-size: 1.15rem;
-}
-
 
 .Contact{
     background: rgb(224, 222, 222);
