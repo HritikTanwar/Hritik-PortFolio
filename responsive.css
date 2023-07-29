@@ -117,7 +117,7 @@ th{
     border-radius: 8px;
 }
 .Education{
-    height: 140vh;
+    height: 125vh;
 }
 .head4{
     padding: 65px 0px 60px 0px;
@@ -132,7 +132,17 @@ th{
 .My-Institute{
     margin-top: 10%;
 }
-
+.Projects{
+    height: 130vh;
+}
+.personal-projects{
+    position: relative;
+    top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
 }
 
 
@@ -250,7 +260,7 @@ th{
     }
 
     .Projects{
-        height: 70vh;
+        height: 110vh;
     }
     .head6{
         padding: 60px 0px 60px 0px;
@@ -258,6 +268,7 @@ th{
     .personal-projects{
         height: 40vh;
         flex-direction: column;
+        top: 180px;
     }
     .My-project{
         height: 15vh;
@@ -392,14 +403,14 @@ th{
         margin-left: 3px;
     }
     .Projects{
-        height: 75vh;
+        height: 102vh;
     }
     .head6{
         padding: 50px 0px 50px 0px;
     }
     .personal-projects{
-        flex-direction: column;
-        height: 50vh;
+        height: 38vh;
+        gap: 25px;
     }
     .My-project{
         width: 270px;
