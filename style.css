@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+   z-index: 99;
+   width: 100vw;
+   height: 60px;
+   position: fixed;
+   /* background-color: rebeccapurple;     */
+}
+header h4{
+    font-size: 2vw;
+    padding: 20px 55px;
+    color: #7E22CE;
+}
+header h4:hover{
+    text-decoration: underline;
+    user-select: none;
+}
+
+#page1{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.page-left{
+    width: 50vw;
+    /* background-color: aliceblue; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 45px;
+    text-align: left;
+}
+.page-left h1{
+    font-size: 4vw;
+}
+.page-left h1 span{
+    color: #7E22CE;
+    font-weight: 900;
+}
+.page-left p{
+    /* width: max-content; */
+    font-size: 2vw;
+    text-decoration: underline;
+    animation: typing 3.5s steps(20) infinite;
+    overflow: hidden;
+    white-space: nowrap;
+}
+@keyframes typing {
+    0%{
+     width: 0;
+    }
+    20%,60%{
+     width: 262.625px;
+    }
+     
+ }
+ button{
+    width: 120px;
+    height: 40px;
+    background: transparent;
+    border-radius: 6px;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 15px; 
+    transition: all 0.4s;
+}
+button:hover{
+    width: 130px;
+    height: 45px;
+    font-size: 18px;
+    background: #7E22CE;
+    color: rgb(255, 255, 255);
+    border: 1px solid #7E22CE;
+}
+.page-right{
+    height: 100%;
+    width: 50vw;
+    background-image: url(Images/20221221_201723.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#page2{
+    width: 100%;
+    height: 80vh;
+}
+.ProfilePhoto{
+    height: 433px;
+    clip-path: circle(40% at 50% 50%);
+    margin-left: 40px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-top: 50px;
+}
+.container-aboutme{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* background-color: red; */
+    width: 70%;
+    height: 50vh;
+    gap: 50px;
+    padding-right: 10px;
+    line-height: 30px;
+}
+.container-aboutme h2{
+    font-size: 2.5vw;
+}
+.container-aboutme .aboutme{
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+.container-aboutme .aboutme span{
+    color: #7E22CE;
+    font-weight: 900;
+}
+.head2 span{
+    color: #7E22CE;
+}
+.aboutaim{
+    font-size: 1.2vw;
+}
+#page3{
+    
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+#page3 h1{
+    position: relative;
+    bottom: 50px;
+    font-size: 3vw;
+}
+.skills-known{
+    /* background-color: rgb(70, 153, 106); */
+    height: 55vh;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 0px;
+    width: 90vw;
+    justify-items: center;
+    align-items: center;
+}
+.skill-name{
+    /* background-color: violet; */
+    width: 65%;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 18px;
+    font-weight: 600;
+    transition: all 0.3s ;
+}
+
+.skill-name img{
+    border: none;
+    border-radius: 8px;
+}
+.skill-name:hover{
+    font-size: 22px;
+    background-color: #7E22CE;
+    color: white;
+    border: #7E22CE;
+    box-shadow: 2px 2px 8px black;
+    transform: rotate3d(0,0,1,5deg);
+}
+
+
+#page4{
+    width: 100%;
+    height: 100vh; 
+}
+.Education{
+    max-width: 100%;
+    height: 100%;
+}
+.head4{
+    padding: 100px 0px 60px 0px;
+    text-align: center;
+    font-size: 3.5rem;
+    
+}
+.EducationQualifications{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 40vh;
+    
+}
+
+.My-Education{
+    width: 360px;
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 28vh;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.My-Education:hover{
+    box-shadow: 2px 2px 8px black;
+    border: none;
+}
+.Education-Heading{
+    
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    font-size: 2.2rem;
+}
+.My-Institute{
+    text-align: center;
+    color: #7E22CE;
+    line-height: 2.5rem;
+    font-size: 1.15rem;
+}
+
+#page5{
+    width: 100%;
+    height: 110vh;  
+    /* background-color: aliceblue; */
+}
+.Projects{
+    height: 90%;
+}
+.head6{
+    padding: 40px 0px 100px 0px;
+    text-align: center;
+    font-size: 3.5rem;
+}
+.personal-projects{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 90px;
+    width: 60%;
+    margin: auto;
+    padding-left: 80px;
+    height: 70vh;
+    perspective: 800px;
+    /* background-color: antiquewhite; */
+}
+
+.My-project{
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 25vh;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    gap: 100px;
+}
+.My-project:hover{
+    box-shadow: 2px 2px 8px black;
+    border: none;
+    
+}
+.Projects-heading{
+    color: black;
+    font-size: 2.5vw;
+    padding: 25px;
+}
+.project-info{
+    color:#7E22CE;
+    line-height: 2.5rem;
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+#page6{
+    width: 100%;
+    height: 85vh;
+}
+.Contact{
+    /* background: rgb(224, 222, 222); */
+    max-width: 100%;
+    height: 100%;
+}
+.Cont{
+    text-align: center;
+    font-size: 3rem;
+}
+.Cont span{
+    color: #7E22CE;
+}
+.msg{
+    margin-top: 4%;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+.FormBox{
+    /* background-color: rebeccapurple; */
+    width: 60%;
+    min-width: 350px;
+    height: 50vh;
+    min-height: 20vh;
+    margin: auto;
+}
+.FormBox .Send{
+    margin-top: 25px;
+}
+form{
+    text-align: center;
+    margin-top: 8%;
+}
+.form-control{
+    padding: 20px;
+    min-width: 350px;
+    width: 90%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+footer{
+    margin: auto;
+    background: rgb(246, 244, 244);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.foot p{
+    padding: 15px;
+    font-size: 1.6rem;
+}
+.foot span{
+    color: #7E22CE;
+}
+.socials{
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

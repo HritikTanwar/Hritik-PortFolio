@@ -1,0 +1,190 @@
+@media (max-width: 1024px) {
+    header h4{
+        font-size: 3vh;
+        padding: 5px 20px;
+    }
+    .page-left p{
+        animation: typing 3.5s steps(20) infinite;
+    }
+    @keyframes typing {
+        0%{
+        width: 0;
+        }
+        20%,60%{
+        width: 180.625px;
+        }
+     
+    }
+    .container-aboutme h2{
+        font-size: 3.5vw;
+        line-height: 50px;
+    }
+    .container-aboutme .aboutme{
+        font-size: 2vw;
+        
+    }
+    .aboutaim{
+        font-size: 1.5vw;
+    }
+    .head4{
+        padding: 50px 0px 60px 0px;
+    }
+    .EducationQualifications{
+        flex-direction: column;
+        gap: 50px;
+        height: 70%;
+    }
+    .personal-projects{
+        grid-gap: 62px;
+        width: 85%;
+        padding-left: 25px;
+    }
+    .My-project {
+        width: 90%;
+        height: 20vh;
+    }
+    .FormBox{
+        margin-top: 65px;
+    }
+}
+
+@media (max-width: 700px) {
+    #page1{
+        flex-direction: column-reverse;
+        
+    }
+    .page-left{
+        width: 100%;
+        padding: 55px 0px;
+        background: url(Images/20221221_201723.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .page-left h1{
+        font-size: 32px;
+        color: white;
+        margin-top: 15px;
+    }
+    .page-left p{
+        font-size: 2.5vh;
+        animation: typing 3.5s steps(20) infinite;
+        color: white;
+        padding-left: 15px;
+    }
+    @keyframes typing {
+        0%{
+        width: 0;
+        }
+        20%,60%{
+        width: 155.625px;
+        }
+     
+    }
+    .page-left .Resume{
+        color: white;
+        border: 1px solid white;
+    }
+    .page-right{
+        visibility: hidden;
+        height: 0;
+    }
+    #page2{
+        height: 100vh;
+    }
+    .info{
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .ProfilePhoto{
+        height: 233px;
+        clip-path: circle(40% at 50% 50%);
+        margin-left: 10px;
+    }
+    .container-aboutme{
+        height: 55vh;
+        gap: 35px;
+        position: relative;
+        bottom: 30px;
+        left: 5px;
+    }
+    .container-aboutme h2{
+        font-size: 30px;
+    }
+    .container-aboutme .aboutme{
+        font-size: 3.5vw;
+        line-height: 25px;
+    }
+    .aboutaim{
+        font-size: 2.7vw;
+        line-height: 15px;
+    }
+    #page3 h1{
+        font-size: 28px;
+    }
+    .skills-known{
+        grid-template-columns: repeat(1, 2fr);
+        height: 70%;
+    }
+    .skill-name{
+        height: 50px;
+    }
+    .head4{
+        padding: 20px 0px 30px 0px;
+        font-size: 28px;
+    }
+    .EducationQualifications{
+        padding-top: 25px;
+    }
+    .My-Education{
+        width: 75%;
+    }
+    .My-Education h5{
+        font-size: 24px;
+    }
+    #page5{
+        height: 130vh;
+    }
+    .head6{
+        font-size: 28px;
+        padding: 20px 0px 20px 0px;
+    }
+    .personal-projects{
+        grid-template-columns: repeat(1, 1fr);
+        width: 80%;
+        padding-left: 5px;
+    }
+    .My-project{
+        width: 100%;
+        height: 20vh;
+        /* margin-left: 120px; */
+        margin: auto;
+    }
+    .Projects-heading{
+        font-size: 24px;
+    }
+    #page6{
+        height: 100vh;
+    }
+    .Contact{
+        height: 95%;
+        padding-top: 80px;
+    }
+    .Cont{
+        font-size: 28px;
+    }
+    .Contact p{
+        font-size: 22px;
+    }
+    .FormBox{
+        margin-top: 25px;
+        height: 80vh;
+        overflow: hidden;
+    }
+    footer{
+        overflow: hidden;
+    }
+    .foot p{
+        padding: 5px;
+        font-size: 20px;
+    }
+}
