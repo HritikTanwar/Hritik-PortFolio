@@ -226,6 +226,7 @@ button:hover{
 .My-Education:hover{
     box-shadow: 2px 2px 8px black;
     border: none;
+    
 }
 .Education-Heading{
     
@@ -277,17 +278,20 @@ button:hover{
     flex-direction: column;
     text-align: center;
     gap: 100px;
+    transition: all 0.3s ease-in-out;
+    color: black;
 }
 .My-project:hover{
-    box-shadow: 2px 2px 8px black;
+    cursor: pointer;
+    box-shadow: 2px 2px  12px 0.5px black;
     border: none;
-    
 }
 .Projects-heading{
     color: black;
-    font-size: 2.5vw;
+    font-size: 2.2vw;
     padding: 25px;
 }
+
 .project-info{
     color:#7E22CE;
     line-height: 2.5rem;
